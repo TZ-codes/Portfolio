@@ -3,6 +3,7 @@
     margin: 0; 
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
+    text-align: center;
 }
 
 header {
@@ -31,7 +32,8 @@ ul a[href] {
 
 .profile-picture {
     background-size: cover;
-    padding: 170px;
+    background-position: center;
+    padding: 70px;
     background: rgba(255, 255, 255, 0.6) url("/images/coding-background.jpg");
     background-blend-mode: lighten;
 }
@@ -46,5 +48,49 @@ ul a[href] {
     padding: 20px;
     
 }
+
+#full-name h1,
+#full-name h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+#about-me {
+    text-align: center;
+
+}
+
+.social-links {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 10px 50px;
+    color: black;
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+#experience-section *{
+    padding: 5px;
+}
+
+.generation {
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+li {
+    list-style: none;
+}
+
+
 
 
