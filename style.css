@@ -81,14 +81,39 @@ ul a[href] {
 }
 
 .generation {
-    border: 2px solid black;
+    border-left: 10px solid  rgb(21, 79, 80);
     border-radius: 10px;
     max-width: 700px;
     margin: 10px auto;
+    background-color: rgb(27, 110, 112);
+    color: rgba(0, 255, 255, 0.818);
 }
 
 li {
     list-style: none;
+}
+
+#skills-section h2 {
+    padding: 20px;
+}
+
+#skills-list {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+
+}
+
+#skills-list li { 
+    background-color:rgb(27, 110, 112);
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: rgba(0, 255, 255, 0.818);
+    border-left: 5px solid  rgb(21, 79, 80);
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
 }
 
 
