@@ -1,7 +1,50 @@
 * {
-    /* padding: 0; */
-    /* margin: 0; */
+    padding: 0;
+    margin: 0; 
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    padding: 10px;
+    background-color: gray;
+}
+
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+
+header ul {
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+ul a[href] {
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.profile-picture {
+    background-size: cover;
+    padding: 170px;
+    background: rgba(255, 255, 255, 0.6) url("/images/coding-background.jpg");
+    background-blend-mode: lighten;
+}
+
+.profile-picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 20px;
+    
 }
 
 
