@@ -98,11 +98,11 @@ li {
 }
 
 #skills-list {
-    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     gap: 10px;
     padding-bottom: 20px;
+    flex-wrap: wrap;
 
 }
 
@@ -114,6 +114,15 @@ li {
     border-left: 5px solid  rgb(21, 79, 80);
     border-radius: 10px;
     box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+}
+
+
+#project-section p {
+    padding-bottom: 20px;
+}
+
+#education-section * {
+    padding: 10px;
 }
 
 
