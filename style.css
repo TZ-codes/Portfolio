@@ -8,7 +8,7 @@
 
 header {
     padding: 10px;
-    background-color: rgb(0, 0, 0);
+    background-color: #115e59;
     position: fixed;
     width: 100vw;
 }
@@ -22,7 +22,7 @@ header a:hover {
 }
 
 body {
-    background-color: rgb(220, 220, 220);
+    background-color: #99f6e4;
 }
 
 
@@ -90,13 +90,18 @@ ul a[href] {
     padding: 5px;
 }
 
+#experience-section {
+    margin: 8px;
+}
+
 .generation {
-    border-left: 10px solid  rgb(21, 79, 80);
+    border-left: 10px solid  #0f3d3a;
     border-radius: 10px;
     max-width: 700px;
     margin: 10px auto;
-    background-color: rgb(27, 110, 112);
-    color: rgba(0, 255, 255, 0.818);
+    background-color: #134e4a;
+    color: rgb(255, 255, 255);
+
 }
 
 li {
@@ -146,7 +151,7 @@ li {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background-color: white;
+    background-color: #ccfbf1;
     box-shadow: 0 0 8px rgb(109, 108, 108);
     
 }
@@ -160,18 +165,11 @@ li {
     object-fit: cover;
 }
 
-
-
 #education-section * {
     padding: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
-}
+
 
 
 
