@@ -106,16 +106,18 @@ li {
 
 }
 
-#skills-list li { 
-    background-color:rgb(27, 110, 112);
-    padding: 3px 8px;
-    border-radius: 4px;
-    color: rgba(0, 255, 255, 0.818);
-    border-left: 5px solid  rgb(21, 79, 80);
-    border-radius: 10px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+.skills {
+    height: auto;
+    width: 75px;
+    margin: 20px;
+    margin-bottom: 25px;
+    transition: transform .2s;
 }
 
+.skills:hover {
+      /* Animation */
+    transform: scale(1.5)
+}
 
 #project-section p {
     padding-bottom: 20px;
@@ -125,6 +127,12 @@ li {
     padding: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
 
 
 
