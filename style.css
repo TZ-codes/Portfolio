@@ -8,7 +8,17 @@
 
 header {
     padding: 10px;
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100vw;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: #fca311;
 }
 
 body {
@@ -122,6 +132,27 @@ li {
 #project-section p {
     padding-bottom: 20px;
 }
+
+.container {
+    border-radius: 10px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 8px rgb(109, 108, 108);
+}
+
+
+.container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
 
 #education-section * {
     padding: 10px;
